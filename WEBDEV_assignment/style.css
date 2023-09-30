@@ -1,0 +1,350 @@
+#nabbar{
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    
+    position: fixed;
+    /* transform: translateY(20); */
+    /* background-image: url(https://media.istockphoto.com/id/155150766/photo/passenger-jet-airplane-flying-above-clouds.jpg?s=612x612&w=is&k=20&c=jlA_vWOX7s7RzauMP7jkZQ0vzn1YVSI_5221apndk3k=);
+    */
+    width:100%;
+    height: 100px;
+    background-color:grey;
+    
+    justify-content: space-around;
+    margin-top: 0%;
+    border-bottom: 5px;
+    border-color: grey;
+    transform: translateY(-20px);
+    transform: translateX(-5px);
+    
+
+}
+.sybol{
+    transform: translateY(25px);
+    /* transform: translateX(-5px); */
+}
+.apna{
+    transform: translateX(-180px);
+}
+.apna:hover{
+    font-size: 80px;
+}
+
+.ab{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    transform: translateX(-80px);
+    
+    
+    justify-content: space-around;
+    color: rgb(11, 86, 152);
+    display:flex;
+}
+
+
+.ab:hover{
+    font-size: 50px;
+
+}
+#bc{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    transform: translateX(-80px);
+    
+    
+    justify-content: space-around;
+    color: rgb(11, 74, 129);
+    display:flex;
+}
+
+
+#bc:hover{
+    font-size: 50px;
+
+}
+/* #cd{
+    margin: 20px;;
+    width: 50px;
+    height: 10px;
+    margin-top: 25px;
+    font-size: 25px;
+    justify-content: stretch;
+    background-color: aqua;
+    
+} */
+.btn{
+    width: 120px;
+    height: 60px;
+    border-radius: 25px;
+    transform: translateY(18px);
+    font-size: 20px;
+    background-color: black;
+    color: azure;
+
+
+}
+.btn:hover{
+    width: 130px;
+    height: 70px;
+}
+
+
+#cd:hover{
+    size: 100px;
+    font-size: 30px;
+
+}
+h1{
+    font-style: italic;
+    color: white;
+    font-size: 55px;
+    margin: 5px; ;
+}
+#ab{
+    margin: 20px;
+}
+/* *{
+    color: aliceblue;
+} */
+#bc{
+    /* margin: 10px; */
+    /* margin: 10px; */
+    /* margin: 10px; */
+    /* margin: 10px; */
+    margin: 20px;
+    
+}
+/* #cd{
+    margin: 5px;
+    align-content: flex-end;
+    
+  
+} */
+#rao{
+    margin: 100px;
+}
+button{
+    colour:aqua;
+}
+#kaisa{
+    colour:aqua
+}
+ 
+
+.container{
+    background-color: black;
+    
+    color: aliceblue;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.mainbox{
+    display:inline-block;
+    
+    width: 100vw;
+    height: 80vh;
+  margin-top: 20px;
+
+}
+/* sidebar */
+.sidebar{
+    /* width:100px;
+    height:100%; */
+    color: aliceblue;
+    
+    font-size: 20px;
+    margin-top: 140px;
+    background-color:black;
+    width: 10vw;
+    height:100vh;
+   
+    border-width: 4px;
+    position: fixed;
+
+    
+}
+.sidebar:hover{
+    border-bottom-right-radius: solid 4px;
+    border-color: aliceblue;
+}
+.home{ display: flex;
+    flex-direction: row;
+}
+   
+.home:hover{
+    font-size: 40px;
+
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+
+}
+.search:hover{
+    font-size: 40px;
+
+}
+ /* content box */
+.content{
+    color: aliceblue;
+    /* transform: translatey(-100px); */
+    margin-left: 200px;
+    margin-top: 55px;
+    font-size: 20px;
+    width: 70vw;
+    height: 60vh;
+    transform: translateY(200px);
+
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    width: 50%;
+    height: 50%;
+    border: solid 2px;
+}
+ /* row1 of content box */
+
+#row1{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+.card1{
+    width: 40%;
+    height: 100%;
+    /* justify-content: space-around; */
+    border-radius: 30px;
+    
+}
+.card1:hover{
+    width: 50%;
+    height: 110%;
+    background-color:grey;
+    transform: style 3d;;
+    backface-visibility: hidden;
+
+}
+.image1{
+    justify-content: center;
+    
+    margin-left: 100px;
+    width: 80%;
+    height: 70%;
+    transform: translate(-30px,20px);
+    
+}
+.tere{
+    width: 80%;
+    height: 40%;
+  transform: translate(80px,0px);
+    
+}
+/* #tere:hover{
+    font-size: 100px;
+} */
+/* audio:hover{
+    width: 400px;
+    height: 80px;
+    border-radius: 20px;
+} */
+img{
+    width: 80%;
+    height: 70%
+    
+}
+/* img:hover{
+    width: 50%;
+    height: 50%;
+} */
+
+/* .card2{
+    width: 50%;
+    height: 100%;
+} */
+
+
+#row2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/* .card3{
+    width: 50%;
+    height: 100%;
+}
+.card4{
+    width: 50%;
+    height: 100%;
+} */
+
+
+
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2956&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-around;
+    
+    
+}
+.container{
+    margin: 0%;
+    /* position: absolute; */
+    transform: translateY(100px);
+    /* justify-content: center; */
+    padding-right: 10px;
+    background-color: grey;
+}
+
+
+/* .index{
+    background-color: gray;
+} */
+.col1{
+    margin-right: 5px;
+    transform:translateX(10px)
+
+}
+.col2{
+    transform: translateX(250px);
+}
+.col3{
+    transform: translateX(500px);
+}
+.col4
+{
+    transform: translateX(700px);
+    justify-content: space-around;
+    padding: 2px;
+}
+.col4:hover{
+    font-size: 20px;
+}
+footer{
+    transform:translateY(100px);
+}
+.face{
+    color: blue;
+}
+a{
+ color: antiquewhite;
+ text-decoration: none;}
+
+
